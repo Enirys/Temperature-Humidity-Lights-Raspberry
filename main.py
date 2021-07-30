@@ -10,7 +10,7 @@ import random
 
 DHTpin = 17 # Pour le capteur DHT11
 resistorPin = 7 # Pour le capteur photoresistor
-key = "1ZZREL7DJ7L2QV79" # API Key for ThingSpeak
+key = "" # API Key for ThingSpeak
 GPIO.setmode(GPIO.BCM) # For humidity and temperature sensor
 GPIO.setmode(GPIO.BOARD) # For light sensor
 
